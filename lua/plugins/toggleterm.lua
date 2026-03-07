@@ -4,18 +4,18 @@ return {
     version = "*",
     start_in_insert = true,
     dependencies = {
-      {
-        dir = "C:/Users/willk/projects/lua/neovim/termprofiles",
-        dev = true,
-        opts = {
-          profiles = require("settings.terminal.profiles"),
-          cycle_left = [[<C-h>]],
-          cycle_right = [[<C-l>]]
-        },
-        enabled = function()
-          return true --vim.env.MSYSTEM == nil
-        end
-      }
+      --{
+      --  dir = "C:/Users/willk/projects/lua/neovim/termprofiles",
+      --  dev = true,
+      --  opts = {
+      --    profiles = require("settings.terminal.profiles"),
+      --    cycle_left = [[<C-h>]],
+      --    cycle_right = [[<C-l>]]
+      --  },
+      --  enabled = function()
+      --    return true --vim.env.MSYSTEM == nil
+      --  end
+      --}
     },
     opts = {
       --shell = vim.o.shell,

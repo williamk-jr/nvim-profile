@@ -37,5 +37,12 @@ return {
   },
   cmake = {},
   clangd = {},
-  pylsp = {}
+  pylsp = {},
+  jdtls = {
+    settings = {
+      java = {
+        
+      }
+    }
+  }
 }
