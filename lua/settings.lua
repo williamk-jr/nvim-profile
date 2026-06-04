@@ -1,5 +1,4 @@
 -- Appearance
-
 vim.cmd.colorscheme("catppuccin")
 vim.o.winborder = "rounded"
 

@@ -14,6 +14,7 @@ return {
         position = "left",
       },
       filesystem = {
+        use_libuv_file_watcher = true, -- Auto refresh neotree.
         follow_current_file = {
           enabled = true
         },

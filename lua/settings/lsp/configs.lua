@@ -35,8 +35,9 @@ return {
       Lua = {},
     },
   },
-  cmake = {},
+  --cmake = {},
   clangd = {},
+  slang = {},
   pylsp = {},
   jdtls = {
     settings = {

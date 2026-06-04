@@ -3,7 +3,7 @@ require("config.lazy")
 
 require("autokeys")
 require("settings")
-require("lazygit")
+--require("lazygit")
 
 --vim.lsp.config("clangd", {
 --  cmd = {"clangd.exe", "--background-index"}
