@@ -5,9 +5,8 @@ require("autokeys")
 require("settings")
 --require("lazygit")
 
---vim.lsp.config("clangd", {
---  cmd = {"clangd.exe", "--background-index"}
---})
+--vim.api.nvim_set_keymap("n", [[<C-h>]], "<cmd>lua vim.lsp.buf.signature_help()<CR>", {noremap=true,silent=true}
+--vim.api.nvim_set_hl(0, 'BlinkCmpSignatureHelpActiveParameter', { link = 'CursorLine' });
 
 require("nvim-treesitter").install({"lua"})
 

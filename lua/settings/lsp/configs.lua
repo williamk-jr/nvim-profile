@@ -37,7 +37,12 @@ return {
   },
   --cmake = {},
   clangd = {},
-  slang = {},
+  slangd = {
+    inlayHints = {
+      deducedTypes = true,
+      parameterNames = true
+    }
+  },
   pylsp = {},
   jdtls = {
     settings = {

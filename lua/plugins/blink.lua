@@ -12,6 +12,13 @@ return {
           auto_show_delay_ms = 250
         },
       },
+      signature = {
+        enabled = true,
+        trigger = {
+          enabled = true,
+          --show_on_insert = true
+        }
+      },
       keymap = {
         preset = 'none',
         --['<C-space>'] = { 'show', 'show_documentation', 'hide_documentation' },
