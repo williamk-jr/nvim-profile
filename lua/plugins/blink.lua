@@ -16,6 +16,7 @@ return {
         enabled = true,
         trigger = {
           enabled = true,
+          show_on_keyword = true
           --show_on_insert = true
         }
       },
@@ -23,7 +24,7 @@ return {
         preset = 'none',
         --['<C-space>'] = { 'show', 'show_documentation', 'hide_documentation' },
         --['<C-e>'] = { 'hide', 'fallback' },
-        ['<Tab>'] = { 'select_and_accept', 'fallback' },
+        ['<C-y>'] = { 'select_and_accept', 'fallback' },
 
         ['<Up>'] = { 'select_prev', 'fallback' },
         ['<Down>'] = { 'select_next', 'fallback' },

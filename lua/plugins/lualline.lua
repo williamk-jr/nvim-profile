@@ -4,7 +4,10 @@ return {
     opts = {
       icons_enabled = true,
       extensions = {
-        "neo-tree"
+        "neo-tree",
+        --"toggleterm",
+        "lazy",
+        "mason"
       }
     }
   }

@@ -38,6 +38,7 @@ return {
   --cmake = {},
   clangd = {},
   slangd = {
+    filetypes = {'slang'},
     inlayHints = {
       deducedTypes = true,
       parameterNames = true
