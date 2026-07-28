@@ -2,7 +2,7 @@ return {
 	{
 		"https://github.com/neovim/nvim-lspconfig",
     opts = {
-      servers = require("settings.lsp.configs")
+      servers = require("settings.mason.language_servers")
     },
     config = function (_, opts)
       for server, config in pairs(opts.servers) do
